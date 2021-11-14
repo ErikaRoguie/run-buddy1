@@ -13,20 +13,19 @@ body{
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
 }
 header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
 }
 haeder a {
     text-decoration: none;
     color: #fce138;
 }
 header nav {
-float: right;
 margin: 0%;
 }
 header nav ul li{
@@ -269,5 +268,31 @@ background: #024e76;
 .contact-info a {
   color: #fce138;
 }
-
 /* REACH OUT STYLES END */
+/* homepage hero */
+.hero {
+  margin: 20px;
+  background-color: white;
+  font-size: 20px;
+  color: blue;
+}
+
+/* secondary page hero */
+.hero-secondary {
+  margin: 20px;
+  background-color: black;
+  font-size: 20px;
+  color: red;
+}
+.hero {
+  margin: 20px;
+  font-size: 20px;
+  background-color: white;
+  color: blue;
+}
+
+/* these two colors will override the ones above in .hero */
+.hero-secondary {
+  background-color: black;
+  color: red;
+}
