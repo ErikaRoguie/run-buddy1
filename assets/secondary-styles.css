@@ -1,0 +1,10 @@
+style.css
+.hero {
+ background-image: url(../assets/images/hero-bg.jpg);
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+  height: auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
